@@ -13,7 +13,6 @@
 	<title>trip info</title>
 </head>
 <body style="height:1500px">
-
 <div class="topnav">
 	<a class="active" href="index.jsp" >FarFromHome</a>
 		<div class="topnav-right">
@@ -37,8 +36,8 @@
           	게시판
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="login.jsp">공지사항</a>
-          <a class="dropdown-item" href="join.jsp">여행정보</a>
+          <a class="dropdown-item" href="faq.jsp">공지사항</a>
+          <a class="dropdown-item" href="bbs.jsp">여행정보</a>
         </div>
       </li>  
       <li class="nav-item">
@@ -53,9 +52,13 @@
           <a class="dropdown-item" href="Report.jsp">1:1 신고</a>
         </div>
       </li>
+      <li class="nav-item">
+        <a class="nav-link" href="guide.jsp">사이트 이용안내</a>
+      </li>
     </ul>
   </div>
 </nav>
+
 <div class="map_wrap">
     <div id="map" style="width:100%;height:100%;position:relative;overflow:hidden;"></div>
     <div id="menu_wrap" class="bg_white">
@@ -576,5 +579,6 @@ function getTimeHTML(distance) {
 }
  
 </script>
+<%@ include file="./footer.jsp" %>
 </body>
 </html>

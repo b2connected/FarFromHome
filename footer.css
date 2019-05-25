@@ -1,0 +1,27 @@
+footer {
+    padding: 25px 0;
+    background-color: #252425;
+    font-family: 'NanumSquare';
+    display: block;
+}
+.footer_container {
+    display: -webkit-flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    max-width: 940px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0 auto;
+}
+.footer_container .company_info_container {
+    display: -webkit-flex;
+    -webkit-box-flex: 1;
+    flex: 1;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    font-size: 13px;
+    line-height: 1.5;
+    color: #ccc;
+}
