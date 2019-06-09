@@ -3,6 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="stylesheet" href="template.css">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -18,7 +19,7 @@
 <a href="https://ko.exchange-rates.org/" rel="nofollow" style=" text-decoration:none; color: #ffffff;">ko.exchange-rates.org</a>
 </div>
 <noscript>
-	<iframe ID="frmExchRatesCC000LYWA" style="margin:50px;border:none; padding:50px;"
+	<iframe ID="frmExchRatesCC000LYWA" style="margin:100px;border:none; padding:50px;"
 		 frameborder="0" width="500" height="500" 
 		 src="https://ko.exchange-rates.org/GetCustomContent.aspx?sid=CC000LYWA&amp;
 		 type=CurrencyConverter&amp;

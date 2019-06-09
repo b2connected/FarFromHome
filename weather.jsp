@@ -10,6 +10,7 @@
 <title>Insert title here</title>
 <script src="https://rawgithub.com/darkskyapp/skycons/master/skycons.js"></script>
 <link rel="stylesheet" href="weather.css">
+<link rel="stylesheet" href="template.css">
 </head>
 <body style="height:600px">
 <%@ include file="./nav.jsp" %>

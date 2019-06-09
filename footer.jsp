@@ -2,8 +2,6 @@
 <html>
 
 <head>
- <link rel="stylesheet" href="footer.css">
-
 </head>
 
 <body>
